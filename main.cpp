@@ -147,12 +147,6 @@ int generalTestFunction(long long numGenerations, std::vector<int> slotIndices, 
         }
 
         for (int faction=0; faction<numFactions; ++faction) {
-            if (factionCounts[faction] == numSlots) {
-
-            }
-        }
-
-        for (int faction=0; faction<numFactions; ++faction) {
             ++factionsResult[faction][factionCounts[faction]];
         }
 
